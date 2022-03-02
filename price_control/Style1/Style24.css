@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+/*	background:url(../imges/Img.png) no-repeat ;
+*/	background-position:top center;
+/*background:url(../images/bb.jpg) no-repeat ;
+*/overflow-x:hidden;
+	margin:0px auto;
+	padding:0px;
+	width:1366px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	
+}
+.bg{
+	padding:2px 0 0 2px;
+	width:200px;
+	font-size:18px;
+	background:#666;
+	color:#FFF;
+}
+
+.text{
+	font-size:36px;
+	color:#000;
+	margin-top:25px;
+	float:left;
+	font-weight:bold;
+	margin-left:145px;
+}
+.clr{ clear:both;}
+.menu{
+	float:left;
+	background-color:#000;
+	height:50px;
+	width:1366px;
+}
+.menu a{
+	color:#fff;
+	font-size:18px;
+	height:50px;
+	line-height:50px;
+	text-decoration:none;
+	padding:17px 25px;
+}
+.menu a:last-child{
+	background:url(../images/phone.png) no-repeat;
+	padding-left:54px;
+}
+.menu a:hover{
+	color:#999;
+}
+.button{
+	background:#666;
+ border-radius:5px;
+ margin-left:270px;
+ margin-top:14px;
+ height:30px;
+ color:#fff;
+ width:130px;
+ font-weight:bold;
+ border-bottom:1px solid #000;
+ border-left:1px solid #000;
+ border-top:1px solid #000;
+ border-right:1px solid #000;
+}
+.button:hover{
+ background:#fff;
+ border-radius:5px;
+ margin-top:14px;
+ height:30px;
+ color:#000;
+ width:130px;
+ font-weight:bold;
+ border-top:1px solid #000;
+ border-right:1px solid #000;
+ border-bottom:1px solid #000;
+ border-left:1px solid #000;	
+}
+

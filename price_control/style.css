@@ -1,0 +1,61 @@
+body{
+	background-position:top center;
+	overflow-x:hidden;
+	margin:0px auto;
+	padding:0px;
+	width:1000px;
+	
+	font-family:Georgia, "Times New Roman", Times, serif;
+	}
+.menu{
+	float:left;
+	height:49px;
+	width:716px;
+/*	background:url(file:///D|/wamp/www/Dandelin/Images/images/images/slide_05.jpg);
+*/	}
+
+
+
+.menu a{
+	color:#fff;
+	float:left;
+	font-size:10px;
+	height:20px;
+	line-height:20px;
+	font-weight:bold;
+	text-decoration:none;
+	padding:15px 24px;
+	font-family:"Eras Light ITC";
+}
+.menu a:last-child{
+	background:url(../Images/images/phone.png)  no-repeat;
+	float:left;
+	margin-left:0px;
+}
+/*.menu a:link {
+    color: #F00;
+}
+.menu a:visited {
+    color: #00FF00;
+}*/
+.menu a:hover{
+	color:#Fff;
+	background-color:#0a2540;
+	cursor:pointer;
+	border-radius:10px;
+	text-decoration: underline overline; color: #FFF;
+}
+
+.menu a:active {
+    color: #00FF00;
+}
+
+.clr{ clear:both;}
+.main_body{
+	float:left;
+	width:1000px;
+}
+link a{
+	color:#0ba4ca;
+	padding-left:3px;
+	}

@@ -1,0 +1,236 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+
+body{
+/*	background:url(../imges/Img.png) no-repeat ;
+*/	background-position:top center;
+/*background:url(../images/bb.jpg) no-repeat ;
+*/
+/*background:url(../images/pak.jpg) no-repeat;
+*/overflow-x:hidden;
+	margin:0px auto;
+	padding:0px;
+	width:1366px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	
+}
+.logo{
+/*	background:url(../images/Img.png) no-repeat ;
+*/
+background:url(../images/ab.png) no-repeat;	
+width:950px;
+height:110px;
+margin-left:160px;
+margin-top:10px;
+}
+.logo1{
+background:url(../images/aaa.png) no-repeat;	
+width:950px;
+height:110px;
+margin-left:640px;
+}
+.img{
+background:url(../images/img.jpg) no-repeat;	
+height:380px;
+margin-left:830px;
+margin-top:170px;
+	
+	}
+.text{
+	font-size:36px;
+	color:#000;
+	margin-top:25px;
+	float:left;
+	font-weight:bold;
+	margin-left:145px;
+}
+.clr{ clear:both;}
+.menu{
+	float:left;
+	background-color:#000;
+	height:50px;
+	width:1366px;
+	}
+.menu a{
+	color:#fff;
+	font-size:18px;
+	height:50px;
+	line-height:50px;
+	text-decoration:none;
+	padding:17px 25px;
+}
+.menu a:6th-child{
+	background:url(../images/phone.png) no-repeat;
+	padding-left:54px;
+}
+.menu a:hover{
+	color:#00F;
+}
+.clr{ clear:both;}
+.menu a:last-child{
+	background:url(../images/phone.png) no-repeat;
+	padding-left:54px;
+}
+.txt1{
+	float:left;
+	width:500px;
+	margin-left:33px;
+	text-align:justify;
+}
+.txt2{
+ float:left;
+ margin-left:60px;
+ margin-top:30px;
+/*border:1px solid #000;
+*/
+}
+.bg{
+	font-size:16px;
+	color:#000;
+	margin-left:5px;
+	
+}
+.bg input[type=text]{
+	width:170px;
+	padding:0 20px;
+	height:25px;
+	background:#000;
+	border:2px;
+	border-radius:2px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	-ms-border-radius:2px;
+	-o-border-radius:2px;
+	font-size:16px;
+	color:#000;
+}
+.bg input[type=email]{
+	width:170px;
+	padding:0 20px;
+	height:25px;
+	background:#000;
+	border:2px;
+	border-radius:2px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	-ms-border-radius:2px;
+	-o-border-radius:2px;
+	margin:10px 0 0 0;
+	font-size:12px;
+	color:#fff;
+	margin-top:0px;
+}
+.bg input[type=password]{
+	width:170px;
+	padding:0 20px;
+	height:25px;
+	background:#000;
+	border:2px;
+	border-radius:2px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	-ms-border-radius:2px;
+	-o-border-radius:2px;
+	margin:10px 0 0 0;
+	font-size:12px;
+	color:#fff;
+	margin-top:0px;
+}
+.button{
+	background:#03C;
+ border-radius:5px;
+ margin-top:14px;
+ margin-left:440px;
+ height:30px;
+ color:#fff;
+ width:120px;
+ font-weight:bold;
+ border-bottom:1px solid #03C;
+ border-left:1px solid #03C;
+ border-top:1px solid #03C;
+ border-right:1px solid #03C;
+}
+.button:hover{
+ background:#F00;
+ border-radius:5px;
+ margin-top:14px;
+ height:30px;
+ color:#03C;
+ width:120px;
+ font-weight:bold;
+ border-top:1px solid #F00;
+ border-right:1px solid #F00;
+ border-bottom:1px solid #F00;
+ border-left:1px solid #F00;	
+
+}
+.link{
+	color:#00C;
+	margin-top:20px;
+	
+	}
+.link a{
+	color:#000;
+	text-decoration:none;
+	
+	}
+.link_button{
+		font-size:16px;
+		margin-top:50px;
+		margin-left:34px;
+}
+.link_button b{
+		font-size:20px;
+}
+.link_button a{
+		float:left;
+		height:20px;
+		text-decoration:none;
+		font-weight:bold;
+		color:#000;
+		margin-left:122px;
+		padding:5px 21px 5px 21px;
+		border-bottom:2px solid #333;
+		border-left:2px solid #333;
+		border-top:2px solid #fff;
+		border-right:2px solid #fff;
+		border-radius:5px;
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+		-o-border-radius:5px;
+}
+.link_button a:hover{
+		padding:5px 21px 5px 21px;
+		height:20px;
+		font-size:18px;
+		color:#007db3;	
+		background:#000;
+		border-top:2px solid #333;
+		border-right:2px solid #333;
+		border-bottom:2px solid #fff;
+		border-left:2px solid #fff;	
+}
+
+.footer{
+	background-color:#000;
+	float:left;
+	font-size:10px;
+	text-align:center;
+	line-height:16px;
+	color:#fff;
+	width:1366px;
+	height:20px;
+}
+.link{
+	float:left;
+	margin-left:5px;
+	font-size:14px;
+	color:#CCC;
+	width:200px;
+	
+	}
+
+	
